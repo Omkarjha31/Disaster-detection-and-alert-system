@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disaster Awareness</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            background: url('Drought.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+        }
+        .container {
+            margin-top: 40px;
+        }
+        .disaster-info {
+            background: rgba(255, 255, 255, 0.8);
+            color: #222;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+        /* Navbar background color */
+        .navbar {
+            background-color: #A16B47;
+        }
+        /* Custom button styling */
+        .btn-custom {
+            background-color: #A16B47;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border-radius: 8px;
+            transition: 0.3s ease-in-out;
+        }
+        .btn-custom:hover {
+            background-color: #8B5A2B;
+        }
+        /* Increase icon size */
+        .icon {
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><span class="icon">🌍</span> Disaster Awareness</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1><span class="icon">📢</span> Disaster Awareness & Safety</h1>
+        <p>Learn about different natural disasters and how to stay safe.</p>
+
+        <div class="disaster-info">
+            <h3><span class="icon">🌍</span> Earthquake</h3>
+            <p>Safety Measures: Drop, Cover, Hold. Stay away from windows and heavy objects.</p>
+        </div>
+
+        <div class="disaster-info">
+            <h3><span class="icon">🌊</span> Flood</h3>
+            <p>Move to higher ground. Avoid floodwaters. Stay updated with official alerts.</p>
+        </div>
+
+        <div class="disaster-info">
+            <h3><span class="icon">🔥</span> Forest Fire</h3>
+            <p>Evacuate immediately. Cover nose/mouth with a damp cloth.</p>
+        </div>
+
+        <div class="disaster-info">
+            <h3><span class="icon">🏔️</span> Landslide</h3>
+            <p>Stay away from slopes and cliffs. Listen for warning signs.</p>
+        </div>
+
+        <!-- Updated Button -->
+        <button class="btn btn-custom mt-3" onclick="window.location.href='index.html'">
+            <span class="icon">🔍</span> Check Real-Time Detection
+        </button>
+    </div>
+</body>
+</html>
+
